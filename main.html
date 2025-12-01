@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Game</title>
+    <link rel="stylesheet" href="./css/master.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="game-name">Test Tayping Speed Game</div>
+      <div class="content">
+        <select id="lvlselect">
+          <option value="Easy">Easy</option>
+          <option value="Normal">Normal</option>
+          <option value="Hard">Hard</option>
+        </select>
+        <div class="massege">
+          You Are Playing On Level <span class="lvl"></span>
+
+          And You Have
+          <span class="seconds"></span> Seconds To Type The Word
+        </div>
+        <div class="start-playing-btn">Start Playing</div>
+        <div class="word"></div>
+        <input
+          type="text"
+          name="user-input"
+          id="user-input"
+          autocomplete="off"
+        />
+        <div class="upcoming-word"></div>
+        <div class="control">
+          <div class="time">
+            Time Left <span class="time-left-span"></span> seconds
+          </div>
+          <div class="score">
+            Your Score <span class="got">0</span> From
+            <span class="total"></span>
+          </div>
+        </div>
+        <div class="finish"></div>
+      </div>
+    </div>
+    <script src="./js/master.js"></script>
+  </body>
+</html>
