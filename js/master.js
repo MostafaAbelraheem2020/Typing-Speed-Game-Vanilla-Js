@@ -11,9 +11,9 @@ let words = [
   "React",
 ];
 let levels = {
-  Easy: 8,
-  Normal: 5,
-  Hard: 3,
+  Easy: 13,
+  Normal: 10,
+  Hard: 8,
 };
 
 // catch all selectores
